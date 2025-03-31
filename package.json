@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "npm run test:unit",
-    "test:unit": "jest",
+    "test:unit": "jest tests/unit",
     "test:e2e": "playwright test"
   },
   "dependencies": {
